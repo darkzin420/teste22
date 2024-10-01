@@ -1,0 +1,61 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;
+font-size: 32px;
+
+}
+
+body{
+
+    background: url(https://img.freepik.com/free-photo/beautiful-nature-landscape-with-mountains-lake_23-2150705872.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727654400&semt=ais_hybrid);;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+
+
+.container{
+width: 485px;
+height: 250px;
+background: transparent;
+border: 2px solid blue;
+backdrop-filter: blur (20px);
+border-radius: 10px;
+padding: 40px;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+
+
+}
+
+.container img{
+position: absolute;
+right: 24px;
+top: 20%;
+margin-top: 5px;
+}
+
+.submit{
+
+width: 100%;
+height: 50px;
+background-color: blueviolet;
+border: none;
+border-radius: 10px;
+color: aliceblue;
+font-weight: 700;
+margin-top: 24px;
+cursor: pointer;
+outline: none;
+}
